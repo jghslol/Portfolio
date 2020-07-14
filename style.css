@@ -1,0 +1,262 @@
+
+* {
+
+border: 0;
+padding: 0;
+margin: 0;
+font-family: 'Cinzel', serif;
+
+}
+
+body {
+
+background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url('/static/greyclimber.jpg') no-repeat center fixed;
+background-size: cover;
+
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 60px;
+  font-family: 'Cinzel', serif;
+
+}
+
+.desc {
+  text-align: center;
+  color: white;
+    font-family: 'Cinzel', serif;
+    font-size: 20px;
+
+}
+
+ul {
+
+  justify-content: center;
+  display: flex;
+  list-style: none;
+
+}
+
+li {
+
+  margin-top: 5%;
+  color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+  border-right: solid white 2px;
+  border-left: solid white 2px;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'Cinzel', serif;
+}
+
+li:hover {
+
+  background: white;
+  opacity: 0.6;
+  color: black;
+}
+
+.code_icons {
+
+  justify-content: center;
+  display: flex;
+  margin-top: 5%;
+  list-style: none;
+
+}
+
+h2 {
+  text-align: center;
+  color: white;
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+  margin-top: 10%;
+
+}
+
+button {
+
+  background: none!important;
+  border: none;
+  padding: 0!important;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+
+}
+
+button:active {
+
+outline: none;
+border: none;
+
+}
+
+button:hover {
+
+  color: black;
+}
+
+button:focus {outline:0;  }
+
+.about_modal {
+
+  float: right;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  color: white;
+  font-size: 100%;
+  border: solid white 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+
+}
+
+.modal-content {
+
+  background: black;
+
+}
+
+.title {
+
+  float: left;
+  padding-left: 2rem;
+
+}
+
+.picture {
+
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 6rem;
+
+}
+
+.text {
+
+  text-align: left;
+  margin-top: 2rem;
+  color: white;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+
+.text2 {
+
+  text-align: left;
+  color: white;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+
+.worktitle {
+
+  font-size: 20px;
+  color: white;
+  padding-top: 1.5rem;
+
+}
+
+.email-link {
+
+  text-decoration: none;
+  color: white;
+  border: solid white 2px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+
+}
+
+a:hover {
+
+  text-decoration: none;
+  color: white;
+
+
+}
+
+video {
+
+  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  outline: none;
+}
+
+.video:active {
+
+  outline: none;
+}
+
+.video:focus {
+
+    outline: none;
+}
+
+h6 {
+
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+  color: white;
+
+}
+
+.text3 {
+
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+  color: white;
+  font-family: 'IBM Plex Serif', serif;
+
+}
+
+.text3:hover {
+
+  color: white;
+
+}
+
+.project2 {
+
+  margin-top: 2rem;
+}
+
+.github {
+
+  margin-left: 2rem;
+}
+
+.skills-text {
+
+  margin-top: 8rem;
+  color: white;
+  font-family: 'IBM Plex Serif', serif;
+  margin-left: 2rem;
+
+}
+
+
+.word {
+
+  font-family: 'IBM Plex Serif', serif;
+
+}
+
+.contact_div {
+
+  margin-top: 9rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+
+}
